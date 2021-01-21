@@ -1,0 +1,25 @@
+Testes:
+
+- checar se o juiz printou algo na tela
+
+
+x file jokenpo_entries
+x jokenpo_entries_tests.exs
+
+x metodo validate(valor1) => {:ok} / {:error, "invalid entrie"}
+________________________________________
+x file jokenpo_rules
+x metodo check(valor1, valor2)
+
+x todas as regras
+- Pedra empata com Pedra 
+- Pedra  ganha de Tesoura
+- Tesoura empata com Tesoura 
+- Tesoura ganha de Papel
+- Papel empata com Papel
+- Papel ganha de Pedra
+______________________________________________
+
+
+file jokenpo
+metodo run(valor1, valor2)
